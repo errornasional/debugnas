@@ -3,19 +3,21 @@ layout: default
 title: Changelog
 ---
 
-## Agent Panel v0.5.23
+## Agent Panel v0.5.24
 
 Released on 2026-10-08
 
-### New Features
+### Bug Fixes
 
-- feat(agent): stop timed-out/cancelled commands; don't block the agent
+- Merge pull request #79 from agent-panel/fix/agent-upgrade-restart
+- fix(agent): fallback to os.Exit when syscall.Exec fails on upgrade restart
 
 ### All Changes
 
 <details><summary>View all</summary>
 
-- feat(agent): stop timed-out/cancelled commands; don't block the agent (b00df63)
+- Merge pull request #79 from agent-panel/fix/agent-upgrade-restart (1d3e859)
+- fix(agent): fallback to os.Exit when syscall.Exec fails on upgrade restart (c924e5a)
 
 </details>
 
