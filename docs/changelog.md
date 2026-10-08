@@ -3,25 +3,19 @@ layout: default
 title: Changelog
 ---
 
-## Agent Panel v0.5.22
+## Agent Panel v0.5.23
 
 Released on 2026-10-08
 
 ### New Features
 
-- feat(billing): enforce per-plan tunnel quota + add TTL backstops for terminals/tunnels
-
-### Bug Fixes
-
-- fix(agent): use net.JoinHostPort for TCP tunnel dial (IPv6-safe)
+- feat(agent): stop timed-out/cancelled commands; don't block the agent
 
 ### All Changes
 
 <details><summary>View all</summary>
 
-- fix(agent): use net.JoinHostPort for TCP tunnel dial (IPv6-safe) (a750a52)
-- chore(agent): bump to Go 1.25 + deps — 0 reachable vulns (1f95e0b)
-- feat(billing): enforce per-plan tunnel quota + add TTL backstops for terminals/tunnels (36d84b5)
+- feat(agent): stop timed-out/cancelled commands; don't block the agent (b00df63)
 
 </details>
 
