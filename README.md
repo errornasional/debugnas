@@ -1,6 +1,6 @@
 # Agent Panel
 
-Latest: [v0.5.24](https://github.com/errornasional/debugnas/releases/tag/v0.5.24)
+Latest: [v0.5.25](https://github.com/errornasional/debugnas/releases/tag/v0.5.25)
 
 ## Install Agent (Linux / macOS)
 

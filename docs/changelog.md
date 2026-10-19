@@ -3,21 +3,19 @@ layout: default
 title: Changelog
 ---
 
-## Agent Panel v0.5.24
+## Agent Panel v0.5.25
 
-Released on 2026-10-08
+Released on 2026-10-19
 
 ### Bug Fixes
 
-- Merge pull request #79 from agent-panel/fix/agent-upgrade-restart
-- fix(agent): fallback to os.Exit when syscall.Exec fails on upgrade restart
+- fix(agent): re-opening an open tunnel is not an error
 
 ### All Changes
 
 <details><summary>View all</summary>
 
-- Merge pull request #79 from agent-panel/fix/agent-upgrade-restart (1d3e859)
-- fix(agent): fallback to os.Exit when syscall.Exec fails on upgrade restart (c924e5a)
+- fix(agent): re-opening an open tunnel is not an error (acf74e2)
 
 </details>
 
