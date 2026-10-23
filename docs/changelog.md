@@ -3,19 +3,19 @@ layout: default
 title: Changelog
 ---
 
-## Agent Panel v0.5.25
+## Agent Panel v0.5.26
 
-Released on 2026-10-19
+Released on 2026-10-23
 
-### Bug Fixes
+### New Features
 
-- fix(agent): re-opening an open tunnel is not an error
+- feat(assistant): live tail of command output while it runs
 
 ### All Changes
 
 <details><summary>View all</summary>
 
-- fix(agent): re-opening an open tunnel is not an error (acf74e2)
+- feat(assistant): live tail of command output while it runs (75d495e)
 
 </details>
 
